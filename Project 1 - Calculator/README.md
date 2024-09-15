@@ -17,7 +17,7 @@
 ![Calculatricee en Javascript](./screenshots/Macbook-Air-.png)
 
 
-Il s'agit d'une calculatrice simple et entièrement fonctionnelle construite à l'aide de HTML, CSS et JavaScript. Elle permet d'effectuer des opérations arithmétiques de base comme l'addition, la soustraction, la multiplication et la division. Ce projet fait partie d'une série de 40 projets de développement web visant à pratiquer et améliorer les compétences en développement web.
+Il s'agit d'une calculatrice simple et entièrement fonctionnelle construite à l'aide de HTML, CSS et JavaScript. Elle permet d'effectuer des opérations arithmétiques de base comme l'addition, la soustraction, la multiplication et la division. Ce projet fait partie d'une série de 40 projets de développement web visant à pratiquer et améliorer les compétences en développement we que vous trouverez ici: [40 Projets de développement web](https://www.github.com/OumarouSandaSouley/40-Projets-de-Developpemetn-Web.git)
 
 ## Fonctionnalités
 - Opérations arithmétiques de base : addition, soustraction, multiplication et division.

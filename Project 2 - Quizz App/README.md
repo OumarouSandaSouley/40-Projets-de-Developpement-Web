@@ -18,7 +18,7 @@
 ![Application de Quizz en JS](./screenshots/Macbook-Air-%20(2).png)
 
 
-Il s'agit d'une application de quiz sportif interactive construite à l'aide de HTML, CSS et JavaScript. Elle couvre plusieurs sports comme le football, le basketball, l'athlétisme et le volleyball, permettant aux utilisateurs de tester leurs connaissances. Ce projet fait partie d'une série de 40 projets de développement web visant à pratiquer et améliorer les compétences en développement.
+Il s'agit d'une application de quiz sportif interactive construite à l'aide de HTML, CSS et JavaScript. Elle couvre plusieurs sports comme le football, le basketball, l'athlétisme et le volleyball, permettant aux utilisateurs de tester leurs connaissances. Ce projet fait partie d'une série de 40 projets de développement web visant à pratiquer et améliorer les compétences en développement we que vous trouverez ici: [40 Projets de développement web](https://www.github.com/OumarouSandaSouley/40-Projets-de-Developpemetn-Web.git)
 
 ## Fonctionnalités
 - Quiz multi-sports : Football, Basketball, Athlétisme, Volleyball.

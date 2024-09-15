@@ -16,7 +16,7 @@
 ![Jeu du Pierre Papier Ciseaux en JS](./screenshots/rockpapercisor.png)
 
 
-Il s'agit d'une implémentation du jeu classique Pierre, Papier, Ciseaux en JavaScript avec le fonctionnment et les régles connues. Vous jouez contre le PC. Ce projet fait partie d'une série de 40 projets de développement web visant à pratiquer et améliorer les compétences en développement web.
+Il s'agit d'une implémentation du jeu classique Pierre, Papier, Ciseaux en JavaScript avec le fonctionnment et les régles connues. Vous jouez contre le PC. Ce projet fait partie d'une série de 40 projets de développement web visant à pratiquer et améliorer les compétences en développement we que vous trouverez ici: [40 Projets de développement web](https://www.github.com/OumarouSandaSouley/40-Projets-de-Developpemetn-Web.git)
 
 ## Fonctionnalités
 - Choix du jeton (Pierre, Papier ou Ciseaux)

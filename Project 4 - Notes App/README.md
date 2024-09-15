@@ -16,7 +16,7 @@
 ![Application de prise de notes en JavaScript version Mobile](./screenshots/mobilenote%20app.png)
 
 
-Il s'agit d'une application web responsive design de prise de notes faite avec du JavaScript. Ce projet fait partie d'une série de 40 projets de développement web visant à pratiquer et améliorer les compétences en développement we que vous troverez ici: [40 Projets de développement web](https://www.github.com/OumarouSandaSouley/40-Projets-de-Developpemetn-Web.git)
+Il s'agit d'une application web responsive design de prise de notes faite avec du JavaScript. Ce projet fait partie d'une série de 40 projets de développement web visant à pratiquer et améliorer les compétences en développement we que vous trouverez ici: [40 Projets de développement web](https://www.github.com/OumarouSandaSouley/40-Projets-de-Developpemetn-Web.git)
 
 ## Fonctionnalités
 - Enregistrement d'une nouvelle note
