@@ -1,5 +1,4 @@
-
-# Jeu du Pierre, Papier, Ciseaux en JavaScript
+# Application de prise de notes en JavaScript
 
 ## Table des matières
 - [Aperçu](#aperçu)
@@ -13,22 +12,23 @@
 
 ## Aperçu
 
-![Jeu du Pierre Papier Ciseaux en JS](./screenshots/rockpapercisor.png)
+![Application de prise de notes en JavaScript version PC](./screenshots/pc%20noteapp.png)
+![Application de prise de notes en JavaScript version Mobile](./screenshots/mobilenote%20app.png)
 
 
-Il s'agit d'une implémentation du jeu classique Pierre, Papier, Ciseaux en JavaScript avec le fonctionnment et les régles connues. Vous jouez contre le PC. Ce projet fait partie d'une série de 40 projets de développement web visant à pratiquer et améliorer les compétences en développement web.
+Il s'agit d'une application web responsive design de prise de notes faite avec du JavaScript. Ce projet fait partie d'une série de 40 projets de développement web visant à pratiquer et améliorer les compétences en développement we que vous troverez ici: [40 Projets de développement web](https://www.github.com/OumarouSandaSouley/40-Projets-de-Developpemetn-Web.git)
 
 ## Fonctionnalités
-- Choix du jeton (Pierre, Papier ou Ciseaux)
-- Vérification de votre choix avec celui du PC pour vérifier le gagnant
-- Possibilité de jouer plusieurs fois
-- Interface simple et minimaliste
+- Enregistrement d'une nouvelle note
+- Catégoriser les notes en 5 catégories (Personnel, Education, Sport, Professionnel, Santé)
+- Afficher les notes enregistrés
+- Supprimer une note enregistrée.
 
 ## Technologies
 Ce projet utilise les technologies suivantes :
-- **HTML5** : Structure du jeu.
-- **CSS3** : Style et mise en page du jeu.
-- **JavaScript** : Fonctionnalité principale pour réaliser la logique du jeu
+- **HTML5** : Structure de l'application.
+- **CSS3** : Style et mise en page de l'application.
+- **JavaScript** : Fonctionnalité principale pour réaliser la logique dérièrre l'application
 
 ## Installation
 Pour exécuter ce projet en local, suivez ces étapes :
@@ -44,19 +44,13 @@ Pour exécuter ce projet en local, suivez ces étapes :
    
 Aucune installation ou dépendance supplémentaire n'est requise.
 
-## Utilisation
-1. Une fois que vous lancez le fichier HTML dans votre navigateur, cliquez sur le Boutton `Lancer le Jeu`
-2.  Choisissez votre Jeton entre Pierre, Papier ou Ciseaux et le programme se charge de vous livrer le résultat final entre vous et lui en évaluant biensure le résultat du jeu.
-3. Relancez une autre partie en cliquant sur `Lancer le Jeu`
-
 ## Structure du projet
 ```
-rockpapercisor/
+notesapp/
 │
 ├── index.html      # Fichier HTML principal
 ├── assets/style.css       # Fichier CSS pour le style
 └── assets/script.js       # Fichier JavaScript pour la fonctionnalité
-└── assets/img/       # Contient les images de Pierre, Papier et Ciseaux
 ```
 
 ## Contributions
