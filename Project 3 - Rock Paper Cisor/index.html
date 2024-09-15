@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Cisor</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+<div class="container">
+    <h2>Jeu du Pierre, Papier, Ciseaux</h2>
+    <div class="tips" id="tips">
+        <p>Choisissez une option</p>
+    </div>
+    <div class="options" id="options">
+        <button class="option" onclick="handleChoices('rock')">
+            <img src="assets/images/rock.png" alt="">
+        </button>
+        <button class="option" onclick="handleChoices('paper')">
+            <img src="assets/images/paper.png" alt="">
+        </button>
+        <button class="option" onclick="handleChoices('cisor')">
+            <img src="assets/images/cisor.png" alt="">
+        </button>
+    </div>
+    <div class="results" id="results">
+        <div class="choises">
+            <div class="choise user">
+                <h5>Votre choix</h5>
+                <span id="me"></span>
+            </div>
+            <div class="choise pc">
+                <h5>Choix du PC</h5>
+                <span id="pc"></span>
+            </div>
+        </div>
+        <p><span class="fs">Résultat</span>: <span id="result" class=""></span></p>
+    </div>
+    <div class="launch" id="launch">
+        <button class="btn" id="btn">Lancer le jeu</button>
+    </div>
+</div>
+
+<script src="assets/js/main.js"></script>    
+</body>
+</html>

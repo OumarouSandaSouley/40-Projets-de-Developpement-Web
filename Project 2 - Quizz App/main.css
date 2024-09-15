@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f4f4;
+}
+.container {
+  max-width: 450px;
+  width: 90%;
+  background: #000;
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 20px rgb(0, 0, 0.1);
+}
+.container h1 {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.tips {
+  font-size: 16px;
+  color: #ccc;
+  text-align: center;
+  font-style: italic;
+}
+.categories {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+  padding: 10px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  border-bottom: 1px solid #4e4a4a;
+}
+.categories select {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.categories button {
+  font-size: 18px;
+  padding: 8px;
+  background: #518ad4;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.question{
+    padding-block: 1.1rem;
+}
+.question h3{
+    font-size: 18px;
+    color: #fff;
+}
+.answers{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.answers button{
+    color: #fff;
+    background: #000;
+    padding: 10px;
+    border: 1px dotted #4e4a4a;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all .4s;
+    text-align: start;
+}
+
+.correct{
+    background: #2b2 !important;
+}
+.incorrect{
+    background: rgb(214, 69, 43) !important;
+}
+.answers button:hover:not([disabled]){
+    background: #ccc;
+    color: #2b2b2b;
+}
+.answers button:disabled{
+    cursor: no-drop;
+}
+.btn-control{
+    padding: 7px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #518ad4;
+    color: #fff;
+    margin: 10px auto 0;
+    display: block;
+    cursor: pointer;
+}
+.footer{
+  text-align: center;
+  font-size: 16px;
+  margin-block: 1.2rem;
+  color: #ccc;
+}
+.footer a{
+  color: inherit;
+}

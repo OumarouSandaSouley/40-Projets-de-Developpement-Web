@@ -1,0 +1,92 @@
+<!-- CSS JavaScript Calculator by Oumarou Sanda Souley 
+Github: https://github.com/OumarouSandaSouley
+Tel: +237690726925
+All rights reserved 
+
+Give It a Star  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <main class="main">
+        <h3>Calculator</h3>
+        <div class="calculator">
+          <div class="screen">
+            <input type="text" autofocus readonly id="screen" />
+          </div>
+          <div class="keyboard">
+            <div class="key" onclick="deleteAll()">
+              <span>CE</span>
+            </div>
+            <div class="key" onclick="deleteLast()">
+              <span>C</span>
+            </div>
+            <div class="key" onclick="populateSign()">
+              <span>+/-</span>
+            </div>
+            <div class="key" onclick="percentage()">
+              <span>%</span>
+            </div>
+            <div class="key" onclick="addToScreen(7)">
+              <span>7</span>
+            </div>
+            <div class="key" onclick="addToScreen(8)">
+              <span>8</span>
+            </div>
+            <div class="key" onclick="addToScreen(9)">
+              <span>9</span>
+            </div>
+            <div class="key" onclick="addToScreen('/')">
+              <span>/</span>
+            </div>
+            <div class="key" onclick="addToScreen(4)">
+              <span>4</span>
+            </div>
+            <div class="key" onclick="addToScreen(5)">
+              <span>5</span>
+            </div>
+            <div class="key" onclick="addToScreen(6)">
+              <span>6</span>
+            </div>
+            <div class="key" onclick="addToScreen('*')">
+              <span>*</span>
+            </div>
+            <div class="key" onclick="addToScreen(1)">
+              <span>1</span>
+            </div>
+            <div class="key" onclick="addToScreen(2)">
+              <span>2</span>
+            </div>
+            <div class="key" onclick="addToScreen(3)">
+              <span>3</span>
+            </div>
+            <div class="key" onclick="addToScreen('-')">
+              <span>-</span>
+            </div>
+            <div class="key" onclick="addToScreen(0)">
+              <span>0</span>
+            </div>
+            <div class="key" onclick="addToScreen('.')">
+              <span>.</span>
+            </div>
+            <div class="key" onclick="addToScreen('+')">
+              <span>+</span>
+            </div>
+            <div class="key equal" onclick="populateCalcul()">
+              <span>=</span>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>By <a href="https://github.com/OumarouSandaSouley" target="_blank">Oumarou Sanda Souley</a> &copy; 2024</footer>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
