@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Reader with JavaScript</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main class="main">
+        <h1>Lecteur de code QR</h1>
+        <div class="container">
+            <div class="input-group" id="formcontainer">
+                <form action="#">
+                    <label for="code">Choisir le fichier de code QR :</label>
+                    <input type="file" name="" id="code">
+                </form>
+            </div>
+            <div class="readcontainer" id="readcontainer">
+                <button class="read" id="read">Lire le code</button>
+            </div>
+            <div class="resultsbox" id="resultsbox">
+                <h5>Résultat:</h5>
+                <textarea readonly name="" id="result" cols="30" rows="7">Texte</textarea>
+                <div class="btns">
+                    <button class="reset" id="reset">Recommencer</button>
+                    <button class="copy" id="copyBtn">Copier le texte</button>
+                </div>
+            </div>
+            <div class="errorbox" id="errorbox">
+                <p id="error">Error: Can't proceed the image</p>
+                <button id="goback">Go Back</button>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>&copy; Copyright 2024, by <a href="https://www.github.com/OumarouSandaSouley">Oumarou Sanda Souley</a></p>
+        </div>
+    </main>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
