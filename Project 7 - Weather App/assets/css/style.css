@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #2324d8, #fff);
+    padding-inline: 10px;
+}
+img{
+    width: 100%;
+}
+.main{
+    width: 100%;
+    max-width: 350px;
+    background: #fff;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.input-group .form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    gap: 10px;
+    margin-bottom: 1.1rem;
+}
+.input-group input, button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.input-group input{
+    width: 100%;
+}
+.input-group button{
+    cursor: pointer;
+}
+.resultbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.details .cityname{
+    font-size: 18px;
+    color: #000;
+}
+.details .flag{
+    display: flex;
+}
+.details .flag img{
+    width: 28px;
+}
+.tempicon{
+    display: flex;
+    align-items: center;
+    margin-block: 2.1rem;
+}
+.tempicon img{
+    width: 120px;
+}
+.temp{
+    display: flex;
+    align-items: center;
+}
+.temp h5{
+    text-align: center;
+    font-size: 27px;
+}
+.temp h5 span{
+    font-weight: 800;
+}
+.tempdesc p{
+    text-align: center;
+    font-size: 16px;
+    color: #352f2f;
+}
+.othersdetails{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.othersdetails .humidity, .pressure, .windspeed{
+    border: 2px solid #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+
+    img{
+        width: 50px;
+    }
+    .image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: .5rem;
+
+
+        p{
+            text-align: center;
+            font-size: x-small;
+            color: #504b4b;
+        }
+    }
+    .value p{
+        font-size: 18px;
+        font-weight: 600;
+        span{
+            font-weight: normal;
+        }
+    }
+}
