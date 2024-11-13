@@ -61,3 +61,43 @@ Ces projets vont du plus simple au plus complexes.
     HTML, CSS, JavaScript, OpenWeather Map API
     - #### Lien:
     [Project 7 - Application de Méteo en JavaScript](https://github.com/OumarouSandaSouley/Project-7-Weather-App)
+- ### Project 9 - Landing Page:
+  - #### Description:
+
+    Il s'agit d'une simple d'une landing page basé sur une publication du Dr. Docteur Noubissie parlant la Claudel Noubissie Business Group. Cette page présente la Claudel Noubissie Business Group avec la publication du docteur "APPRENEZ À VENDRE, LAISSEZ LE JAMBO !"
+    - #### Stack:
+    HTML, CSS, JavaScript, reactjs and Tailwind CSS
+    - #### Lien:
+    [Project 9 - Landing Page](https://github.com/OumarouSandaSouley/Project-9-Landing-Page)
+- ### Project 10 - Génerateur de mot de passe securisé en JavaScript:
+  - #### Description:
+
+    Il s'agit d'un génerateur de mot de passe securisé en JavScript. Vous avez la possibilité de choisir les caractères que vous voulez notttament les lettres, les chiffres, les caractères spéciaux et d'inclure la majuscule ou pas en enfin de choisir la longeur de votre mot de passe.
+    - #### Stack:
+    HTML, CSS, JavaScript.
+    - #### Lien:
+    [Projet 10 - Génerateur de mot de passe securisé en JavaScript](https://github.com/OumarouSandaSouley/Project-10-Password-Generator)
+- ### Project 11 - Jeu du Tic Tac Toe en JavaScript:
+  - #### Description:
+
+   Il s'agit d'une implémentation du jeu classique Tic Tac Toe en JavaScript avec le fonctionnment et les régles connues. Vous jouez contre le PC.
+    - #### Stack:
+    HTML, CSS, JavaScript.
+    - #### Lien:
+    [Project 11 - Jeu du Tic Tac Toe en JavaScript](https://github.com/OumarouSandaSouley/Project-11-Tic-Tac-Toe-Game-)
+- ### Project 12 - Raccourcisseur d'URL en JavaScript:
+  - #### Description:
+
+   Il s'agit d'une implémentation d'un racourcisseur d'URL en JavaScript.
+    - #### Stack:
+    HTML, CSS, JavaScript.
+    - #### Lien:
+    [Project 12 - Raccourcisseur d'URL en JavaScript](https://github.com/OumarouSandaSouley/Project-12-Link-Shortener)
+- ### Project 13 - Portfolio website:
+  - #### Description:
+
+   Il s'agit de mon propre portfolio sous forme de livre. Il présente mes activités, mes stats GitHub et ainsi que mes projets réalisés dans un cadre de design clair et élegant.
+    - #### Stack:
+    HTML, CSS, JavaScript, ReactJS, Tailwind CSS, React Flip Page
+    - #### Lien:
+    [Project 13 - Portfolio website](https://github.com/OumarouSandaSouley/Project-13-Portfolio-Website)
